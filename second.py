@@ -42,3 +42,7 @@ for x in "banana":
 tex = "my name is nitin kumar from bihar"
 for bihar in tex:
     print("yes , bihar is here")
+
+#get the possition ot the charecter
+my_num = "Hellow worid" 
+print(my_num[2:5])   
