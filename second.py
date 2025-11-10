@@ -51,6 +51,8 @@ print(my_num[2:5])
 for i in range (1,11):
     print(i)
 
-# print a upper case letter
+# print a upper case letter and lower case letter
 a = "Helow world"
-print(a.upper())    
+print(a.upper())
+b = "HELLOW WORLD"
+print(b.lower())
