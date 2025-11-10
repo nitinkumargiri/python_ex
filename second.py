@@ -56,3 +56,7 @@ a = "Helow world"
 print(a.upper())
 b = "HELLOW WORLD"
 print(b.lower())
+
+# replace  the string
+b = "Hello Rohit"
+print(b.replace("R","M"))
