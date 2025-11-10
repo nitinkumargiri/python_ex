@@ -60,3 +60,8 @@ print(b.lower())
 # replace  the string
 b = "Hello Rohit"
 print(b.replace("R","M"))
+
+# we will using of f string combine string and number each other
+age = 32
+txt = (f"my name is nitin kumar I ame  {age} year old") 
+print(txt)
