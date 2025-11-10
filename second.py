@@ -50,3 +50,7 @@ print(my_num[2:5])
 #we will print 1 to 10 number
 for i in range (1,11):
     print(i)
+
+# print a upper case letter
+a = "Helow world"
+print(a.upper())    
