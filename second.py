@@ -65,3 +65,16 @@ print(b.replace("R","M"))
 age = 32
 txt = (f"my name is nitin kumar I ame  {age} year old") 
 print(txt)
+
+# display tyhe prise with decimal from
+prise = 50
+ptx = f"the prise is {prise:.2f}"
+print(ptx)
+
+#print yes if the function return true otherwise NO
+def myfunction():
+    return True
+if myfunction():
+    print("yes")
+else:
+    print("no")
