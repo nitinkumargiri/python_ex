@@ -46,3 +46,7 @@ for bihar in tex:
 #get the possition ot the charecter
 my_num = "Hellow worid" 
 print(my_num[2:5])   
+
+#we will print 1 to 10 number
+for i in range (1,11):
+    print(i)
