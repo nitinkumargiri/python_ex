@@ -115,3 +115,10 @@ print(this_list)
 this_list = ["apple","banana","mthis_listango", "kiwi","cherry"]
 this_list.sort(reverse=True)
 print(this_list)
+
+# print the closer no of 50 
+def myfunction(i):
+    return abs (i-50)
+thislist = [100,50,30,55,42,55.70,41]
+thislist.sort(key=myfunction)
+print(thislist)
