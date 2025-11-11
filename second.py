@@ -82,3 +82,9 @@ else:
 # print item in list position 2 to position 6
 list = ["apple","banana","papaya","lichi","pineapple","stobari","aanar"]   
 print(list[1:6]) 
+
+#change the value of a specfic item
+thislist = ["apple","banana","papaya","lichi","pineapple","stobari","aanar"]
+thislist [1] = "coconut"
+print(thislist)
+    
