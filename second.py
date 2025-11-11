@@ -97,3 +97,11 @@ print(list)
 list = ["apple","banana","cherry"]
 list.clear()
 print(list)
+
+# we will print only thos item in which available "a"
+thislist = ["apple","banana","cherry"]
+newlist = []
+for x in thislist:
+    if "a" in x:
+        newlist.append(x)
+        print(newlist) 
