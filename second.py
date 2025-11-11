@@ -122,3 +122,9 @@ def myfunction(i):
 thislist = [100,50,30,55,42,55.70,41]
 thislist.sort(key=myfunction)
 print(thislist)
+
+list1 = ["a","b","c"]
+list2 = ["1","2","3"]
+for x in list2:
+    list1.append(x)
+    print(list1)
