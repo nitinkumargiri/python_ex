@@ -107,6 +107,11 @@ for x in thislist:
 
 # take output in assending order using of short() method
 
-this_list = ["apple","banana","mango", "kiwi","cherry"]
+this_list = ["apple","banana","mthis_listango", "kiwi","cherry"]
 this_list.sort()
+print(this_list)
+
+# take output in desending order
+this_list = ["apple","banana","mthis_listango", "kiwi","cherry"]
+this_list.sort(reverse=True)
 print(this_list)
