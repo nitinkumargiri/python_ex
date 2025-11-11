@@ -87,4 +87,10 @@ print(list[1:6])
 thislist = ["apple","banana","papaya","lichi","pineapple","stobari","aanar"]
 thislist [1] = "coconut"
 print(thislist)
+
+# using of insert method
+list = ["apple","banana","cherry"]
+list.insert(0,"orange")
+print(list)
+
     
