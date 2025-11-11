@@ -78,3 +78,7 @@ if myfunction():
     print("yes")
 else:
     print("no")
+
+# print item in list position 2 to position 6
+list = ["apple","banana","papaya","lichi","pineapple","stobari","aanar"]   
+print(list[1:6]) 
