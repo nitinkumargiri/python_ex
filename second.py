@@ -93,4 +93,7 @@ list = ["apple","banana","cherry"]
 list.insert(0,"orange")
 print(list)
 
-    
+#  use the clear method.
+list = ["apple","banana","cherry"]
+list.clear()
+print(list)
