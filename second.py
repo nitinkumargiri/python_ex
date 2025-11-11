@@ -104,4 +104,9 @@ newlist = []
 for x in thislist:
     if "a" in x:
         newlist.append(x)
-        print(newlist) 
+
+# take output in assending order using of short() method
+
+this_list = ["apple","banana","mango", "kiwi","cherry"]
+this_list.sort()
+print(this_list)
