@@ -128,3 +128,10 @@ list2 = ["1","2","3"]
 for x in list2:
     list1.append(x)
     print(list1)
+
+# convert a touple into a list
+thistuple = ("apple","banana","cherry")
+y = list(thistuple)
+y.append("orange")
+thistuple = tuple(y)
+print(thistuple)
