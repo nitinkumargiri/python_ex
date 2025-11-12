@@ -11,3 +11,10 @@ thistuple = (2,3,4,5,6,7,8,5,4,5,45)
 x = thistuple.count(2)
 print(x)
 
+# convert a touple into a list
+thistuple = ("apple","banana","cherry")
+y = list(thistuple)
+y.append("orange")
+thistuple = tuple(y)
+print(thistuple)
+
