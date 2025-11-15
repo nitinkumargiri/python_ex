@@ -8,6 +8,7 @@ sum = num1 + num2
 print("the sum is ",sum)
 
 # Substraction program
+print('FOR SUBSTRACTION.....')
 num1 = int(input("enter your first no : "))
 num2 = int(input("enter your decond no "))
 sub = num1 - num2
