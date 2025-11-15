@@ -15,6 +15,7 @@ sub = num1 - num2
 print (" the sub is: ",sub)
 
 # multiplication  program.
+print("FOR MULTIPLICATION....")
 num1 = int(input("enter your first number: "))
 num2 = int(input("enter your second number: "))
 mul = num1 * num2
