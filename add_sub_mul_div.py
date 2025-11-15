@@ -17,3 +17,13 @@ num1 = int(input("enter your first number: "))
 num2 = int(input("enter your second number: "))
 mul = num1 * num2
 print ("the multiplication is: ",mul)
+
+# division programk.
+print("FOR DIVISION")
+num1 = int(input("enter your first no: "))
+num2 = int(input("enter your second no : "))
+if (num2 != 0):
+    div = num1 / num2
+    print("the division value is ",div)
+else:
+    print("ERROR! Division by 'o' ")
