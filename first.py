@@ -29,5 +29,5 @@ print(type(thisdict))
 # using of set
 thisset = {"apple","banana","cherry"}
 thatset = {"mango","papaya","banana"}
-set3 = thisset.union(thatset)
+set3 = thisset.intersection(thatset)
 print(set3)
