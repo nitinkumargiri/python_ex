@@ -18,7 +18,7 @@ y.append("orange")
 thistuple = tuple(y)
 print(thistuple)
 
-#example of dictionary
+#example the length of  dictionary
 thisdict = {"apple" : "banana" , "cherry" : 1964}
-print(thisdict)
+print(len(thisdict))
 
