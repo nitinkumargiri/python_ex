@@ -22,3 +22,7 @@ print(thistuple)
 thisdict = {"apple" : "banana" , "cherry" : 1964}
 print(len(thisdict))
 
+# print the type of the dictionary
+thisdict = {"papaya" : "graps" , "banana" : "apple"}
+print(type(thisdict))
+
