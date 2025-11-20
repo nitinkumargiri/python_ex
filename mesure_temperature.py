@@ -5,5 +5,7 @@ print(f"fahrenheit of {temp} is ",mesur)
 
 #we will again erite program for fahrenheit to celcius.
 fahrenheit = float(input("ente your no : "))
+celcius = (fahrenheit-32)* 5/9
+print(f"fahrenheit of {fahrenheit} is : ",celcius)
 
 
