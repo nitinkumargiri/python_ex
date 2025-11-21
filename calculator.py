@@ -5,3 +5,5 @@ if(operator == '+'):
     print(f"the sum of {num1} + {num2} = ",num1+num2)
 elif(operator == '-'):
     print(f"the sub of {num1} - {num2} = ",num1-num2)
+elif(operator == '*'):
+    print(f"the multiplication of {num1} * {num2} = ",num1*num2)
