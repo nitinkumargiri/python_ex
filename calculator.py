@@ -7,3 +7,10 @@ elif(operator == '-'):
     print(f"the sub of {num1} - {num2} = ",num1-num2)
 elif(operator == '*'):
     print(f"the multiplication of {num1} * {num2} = ",num1*num2)
+elif(operator == '/'):
+    if(num2 != 0):
+        print(f'the division of {num1} / {num2} = ',num1/num2)
+    else:
+        print("error: divided by 0")
+
+    
