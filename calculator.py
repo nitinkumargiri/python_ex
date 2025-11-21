@@ -12,5 +12,10 @@ elif(operator == '/'):
         print(f'the division of {num1} / {num2} = ',num1/num2)
     else:
         print("error: divided by 0")
+        breakpoint
+else:
+    print("invailed operator..")
+
+
 
     
