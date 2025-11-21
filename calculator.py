@@ -3,3 +3,5 @@ num2 = int(input("enter your second number : "))
 operator = str(input("entr your choice (+,-,*,/) : "))
 if(operator == '+'):
     print(f"the sum of {num1} + {num2} = ",num1+num2)
+elif(operator == '-'):
+    print(f"the sub of {num1} - {num2} = ",num1-num2)
