@@ -1,3 +1,5 @@
+print("....WEELCOME TO NUMBER GUESSING GAME....\n")
+print("   ..enter number between (1 - 100)..\n")
 guess = int (input("enter your number : "))
 import random
 computerguess = random.randrange(1,100)
