@@ -9,3 +9,7 @@ print(calendar.month(yy,mm))
 yy = 2025
 mm = 2
 print(calendar.month(yy,mm))
+# print the calendar of march 2025
+yy = 2025
+mm = 3
+print(calendar.month(yy,mm))
