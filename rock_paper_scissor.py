@@ -2,7 +2,7 @@
 print("....WELCOME TO ROCK PAPPER SCISOR GAME....\n\n")
 print("chose: 1 = 'rock'..\nchose: 2 = 'paper'..\nchose: 3 = 'scissor..\n\n")
 
-# userchoice = int (input("enter your choice : "))
+userchoice = int (input("enter your choice : "))
 # import random
 # computerchoice = (random.randrange(1,4))
 # print("enter computer choice : ",computerchoice)
