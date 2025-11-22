@@ -7,11 +7,11 @@ import random
 computerchoice = (random.randrange(1,4))
 print("enter computer choice : ",computerchoice)
 
-# if(userchoice == computerchoice):
-#     print("mach is draw....")
-# elif((userchoice == 1 and computerchoice == 3) or (userchoice == 2 and computerchoice == 1)
-#      or (userchoice == 3 and computerchoice == 2)):
-#     print("you win....")
-# else:
-#     print("computer win...")
+if(userchoice == computerchoice):
+    print("mach is draw....")
+elif((userchoice == 1 and computerchoice == 3) or (userchoice == 2 and computerchoice == 1)
+     or (userchoice == 3 and computerchoice == 2)):
+    print("you win....")
+else:
+    print("computer win...")
 
