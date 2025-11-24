@@ -1,3 +1,4 @@
+print ("author - nitin giri..")
 print ("WELCOME TO THIS PLATFORM")
 print ("===cheak eligblity for vote===\n")
 age = int(input("enter your age : "))
