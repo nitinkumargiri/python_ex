@@ -1,0 +1,1 @@
+area = int (input("enter your length : "))
