@@ -31,3 +31,5 @@ thisset = {"apple","banana","cherry"}
 thatset = {"mango","papaya","banana"}
 set3 = thisset.intersection(thatset)
 print(set3)
+dict = {"apple":"bamana","modle":"a1"}
+print(dict["modle"])
