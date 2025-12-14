@@ -5,4 +5,12 @@ menu = {
     'saled': 70,
     'tea': 20
 }
-print(menu)
+print("###__WELCOME TO PYTHON RESTURENT__###")
+print("pizza: Rs 120\nbarger: RS 40\ncoffie: Rs 60\nsaled: Rs 70\ntea: Rs 20")
+total_item = 0
+item_1 = input("Enter your item that you want to order : ")
+if item_1 in menu:
+    total_item += menu[item_1]
+    print(f"your item {item_1} is added.")
+else:
+    print(f"ordered item {item_1} is not available.")
