@@ -33,3 +33,20 @@ set3 = thisset.intersection(thatset)
 print(set3)
 dict = {"apple":"bamana","modle":"a1"}
 print(dict["modle"])
+
+thisdict = {"brandf":"tata","modle":"mahindra",
+            "year": 2000}
+x = thisdict
+print(x)
+x["year"] = 2020
+print(x)
+#using the update method
+this = {"modle":"car","year":2003}
+this.update({"year":2004})
+print(this)
+x = this
+x.update({"coler":"red"})
+print(x)
+#using of del keword
+del this["modle"]
+print(this)
