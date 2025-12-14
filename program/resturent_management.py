@@ -14,3 +14,14 @@ if item_1 in menu:
     print(f"your item {item_1} is added.")
 else:
     print(f"ordered item {item_1} is not available.")
+
+another_item = input("Do you want to add another item? (yes/NO): ")
+if another_item == "yes":
+    item_2 = input("Enter your second order do you want : ")
+    if item_2 in menu:
+        total_item += menu[item_2]
+        print(f"your item {item_2} is added.")
+    else:
+        print(f"item secons {item_2} is not available.")
+
+print(f"The total amount item to pay is : {total_item}")        
