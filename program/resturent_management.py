@@ -11,7 +11,7 @@ menu = {
     'milk': 30,
     'jush': 50
 }
-print("###__WELCOME TO OUR PYTHON RESTURENT__###\n")
+print("####__WELCOME TO OUR PYTHON RESTURENT__####\n")
 print("owner :-__ नितिन गिरी__\n")
 print("pizza: Rs 120\nbarger: RS 40\ncoffie: Rs 60\nsaled: Rs 70\ntea: Rs 20\n")
 print("paratha: Rs 80\nveg: Rs 150\nnon-veg: Rs180\nnudals: Rs 50\nmilk: Rs 30\njush: Rs 50")
