@@ -1,3 +1,4 @@
+#using dicnary  we are cteate a menue to cheak which product availablity.
 menu = {
     'pizza': 120,
     'barger': 40,
