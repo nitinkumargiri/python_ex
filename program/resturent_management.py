@@ -9,8 +9,7 @@ menu = {
     'veg': 150,
     'non-veg':180,
     'nudals': 50,
-    'milk': 30,
-    'jush': 50
+    'milk': 30, 
 }
 print("####__WELCOME TO OUR PYTHON RESTURENT__####\n")
 print("owner :-__ नितिन गिरी__\n")
