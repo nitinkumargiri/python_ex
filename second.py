@@ -137,3 +137,7 @@
 # print(thistuple)
 for x in range(1,10):
     print("number",x)
+    x = 10
+    y = 20
+    bigger = x if x > y else y
+    print("bigger is",bigger)
