@@ -13,7 +13,7 @@ hindi = int(input("enter your hindi result: "))
 eng = int(input("enter your english result: "))
 math = int(input("enter your math result: "))
 science = int (input("enter your science result: "))
-sst = int(input("enter your social science result:"))
+sst = int(input("enter your social science result:\n"))
 
 total_mark = hindi + eng + math + science + sst
 percentage = int(total_mark / 5)
