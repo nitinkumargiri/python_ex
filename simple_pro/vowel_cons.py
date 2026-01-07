@@ -1,3 +1,4 @@
+print("WELCOMRE HERE..!")
 def vowconst(user_input):
     #define vowel
     vowel = "aeiouAEIOU"
